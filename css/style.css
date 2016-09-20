@@ -3,51 +3,74 @@
     margin: auto;
 }
 
-#banner .col-md-4 {
+/*Top Banner Start*/
+
+#banner {
     height: 100px;
     background-color: #ffeab9;
 }
 
-#logo {
-    height: 100px;
-    width: 100px;
+.logo {
+    float: left;
 }
 
-#homename {
+.logo img {
+    height: 100px;
+    width: 100px;
+    margin-left: 10px;
+}
+
+.account {
+    float: right;
+}
+
+#login {
+    float: none;
+    text-align: right;
+    margin-top: 60px;
+}
+
+#signin {
+    float:none;
+    text-align: right;
+    margin-top: 60px;
+    margin-right: 5px;
+}
+
+.homename {
+    position: relative;
     line-height: 30%;
     margin-top: 30px;
     font-size: 50px;
     color: #ff4e13;
     font-family: Verdana;
+    text-align: center;
 }
 
 #homename1 {
-    margin-left: 30%;
+    position: relative;
+    right: 40px;
 }
 
 #homename2 {
-    margin-left: 40%;
+    position: relative;
+    left: 40px;
 }
 
-#account {
-    text-align: right;
-}
+/*Top Banner's End*/
 
-.account {
-    margin-top: 60px;
-}
 
-#menubar ul {
+/*#menubar ul {*/
 
-    list-style: none;
-    background-color: #5d3016;
-    text-align: justify;
-}
+    /*list-style: none;*/
+    /*background-color: #5d3016;*/
+    /*text-align: justify;*/
+/*}*/
 
-#menubar ul li{
-    display: inline-block;
-    background-clor: #5d3016;
-    color: white;
-    font-size: 20px;
-}
+/*#menubar ul li{*/
+    /*display: inline-block;*/
+    /*background-clor: #5d3016;*/
+    /*color: white;*/
+    /*font-size: 20px;*/
+/*}*/
 
